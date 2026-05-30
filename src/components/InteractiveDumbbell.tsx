@@ -275,6 +275,7 @@ export default function InteractiveDumbbell() {
                       setIsLifting(true);
                       setTimeout(() => setIsLifting(false), 300);
                     }}
+                    suppressHydrationWarning
                     className={`relative py-3 rounded-2xl border font-black uppercase text-xs tracking-wider transition-all duration-300 cursor-pointer overflow-hidden ${
                       weight === preset.weight
                         ? "border-brand-orange text-white bg-brand-orange/10 shadow-[0_0_12px_rgba(255,90,54,0.25)]"

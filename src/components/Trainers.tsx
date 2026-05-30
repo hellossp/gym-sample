@@ -12,7 +12,7 @@ const TRAINERS = [
     name: "Vikram Rathore",
     role: "Head Strength Coach",
     cert: "ISSA Certified Specialist",
-    image: "https://images.unsplash.com/photo-1605296867304-46d5465a25f1?q=80&w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=600&auto=format&fit=crop",
     color: "orange",
     socials: { instagram: "#", twitter: "#" },
   },
