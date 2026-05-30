@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "S-27 Gym | Be Fitter & Happier | Premium Gym in Berhampur, Odisha",
-  description: "Join S-27 Gym, Berhampur's premium fitness destination. Experience modern strength equipment, certified trainers, personalized diet charts, Zumba, and Yoga plans. Start your fitness transformation today!",
+  title: "Gym Sample",
+  description: "Gym Sample - Explore our modern strength equipment, certified trainers, and personalized fitness programs.",
 };
 
 export default function RootLayout({
