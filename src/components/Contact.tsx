@@ -109,9 +109,7 @@ export default function Contact() {
                   <div>
                     <h4 className="text-xs uppercase font-extrabold tracking-wider text-gray-400">Phone</h4>
                     <p className="text-sm font-bold text-gray-200 mt-1">
-                      <a href="tel:+917008123456" className="hover:text-brand-orange transition-colors">
-                        +91 70081 23456
-                      </a>
+                      **
                     </p>
                   </div>
                 </div>
@@ -220,7 +218,7 @@ export default function Contact() {
                       required
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="e.g. 70081 23456"
+                      placeholder="e.g. 98765 43210"
                       className="w-full bg-[#161616] border border-white/5 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-600 focus:outline-none focus:border-brand-orange focus:ring-1 focus:ring-brand-orange transition-all"
                     />
                   </div>

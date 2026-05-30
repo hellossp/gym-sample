@@ -149,13 +149,12 @@ export default function Hero() {
               </a>
 
               <a
-                href="https://wa.me/917008123456?text=Hi%20S-27%20Gym%2C%20I%20am%20interested%20in%20joining%20the%20gym.%20Please%20provide%20membership%20details."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-3.5 border-2 border-[#25d366]/40 hover:border-[#25d366] bg-transparent hover:bg-[#25d366]/5 text-gray-200 hover:text-[#25d366] text-base font-extrabold tracking-wider uppercase rounded-full transition-all duration-300 hover:translate-y-[-3px] group"
+                href="#contact"
+                onClick={handleScrollToContact}
+                className="inline-flex items-center justify-center px-8 py-3.5 border-2 border-white/10 hover:border-brand-orange bg-transparent hover:bg-brand-orange/5 text-gray-200 hover:text-white text-base font-extrabold tracking-wider uppercase rounded-full transition-all duration-300 hover:translate-y-[-3px] group"
               >
-                <MessageCircle className="w-5 h-5 mr-2 text-[#25d366] group-hover:scale-110 transition-transform" />
-                Whatsapp Us
+                <MessageCircle className="w-5 h-5 mr-2 text-brand-orange group-hover:scale-110 transition-transform" />
+                Inquire Now
               </a>
             </motion.div>
           </motion.div>
